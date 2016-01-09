@@ -1,0 +1,120 @@
+html, body
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	max-width:100;
+	margin:0 0;
+	padding:30px 0;
+}
+.nav li 
+{
+	position:relative;
+	bottom:10px;
+	list-style-type:none;
+	display:inline;
+	float:left;
+	padding:0 20px;
+	color:#fff;
+	cursor:auto;
+}
+.section1
+{
+	
+	background:url("bg.jpg");
+	height:593px;
+	width:100%;	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	font-family:"raleway", sans-serif;
+	text-decoration: none;
+}
+.main h1
+{
+	font-family:"raleway", sans-serif;
+	margin-top:65px;
+	color:#333;
+	font-size:70px;
+}
+.main
+{
+	
+	text-align:center;
+	
+}
+.header
+{
+	background: #333;
+}
+.nav1
+{
+	color:#fff;
+	font-family:"raleway", sans-serif;
+	text-decoration: none;
+}
+.btn
+{
+	position:relative;
+	font-family:"raleway", sans-serif;
+	font-size:20px;
+	background-color:#333;
+	color:#fff;
+	top:30px;
+	text-decoration:none;
+	letter-spacing:1.3px;
+	padding:16px 40px;
+	border-radius:5px;
+	cursor:auto;
+}
+.supporting .col
+{
+	max-width:500px;
+	text-align:center;
+	float:left;
+	width:33%;
+	display:block;
+	font-family:"raleway", sans-serif;
+}
+.supporting p
+{
+	padding:0 50px;
+	font-size:15px;
+	font-family:"raleway", sans-serif;
+	margin:0 65px;
+	
+}
+.btn2
+{
+	position:relative;
+	font-family:"raleway", sans-serif;
+	border:1.5px solid #333;
+	padding:10px 20px;
+	top:30px;
+	border-radius:3px;
+	color:#333;
+	text-decoration:none;
+	cursor:auto;
+	
+}
+.footer  p
+{
+	position:relative;
+	padding:0 10px;
+	top:150px;
+	background-color:#333;
+	color:#fff;
+	text-align:center;
+}
+.col h2:hover
+{
+	color:red;
+}
+.btn:hover
+{
+	color:yellow;
+	position:relative;
+	border-radius:0;
+}
